@@ -1,0 +1,115 @@
+*{
+    font-family: Raleway;
+    color: black;
+    background-color: gray;
+  }
+  
+  header{
+    padding-left: 10px;
+    height: 125px;
+    display: inline;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+  }
+  
+  #logo{
+    margin: 0 auto 5px;
+    padding: 0 2px;
+    max-width: 10%;
+    height: auto;
+    text-align: left;
+    display: inline;
+    border: 1px solid lightgray;
+  }
+  
+  nav{
+    margin: 10px auto;
+    text-align: right;
+    cursor: pointer;
+    font-family: raleway;
+  }
+  
+  nav a{
+    margin: 10px;
+    display: inline;
+  }
+
+  main img{
+    height: 500px;
+    width: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border: 2px solid darkgray;
+    justify-content: space-evenly;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 80px;
+  }
+
+  #gameroom{
+    border: 10px solid white;
+  }
+
+  #livingroom{
+    border: 10px solid white;
+  }
+
+
+  h1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  h3{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+ .bottomimg{
+    height: 700px;
+    width: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 0px;
+ }
+
+ footer{
+  background-color: darkgray;
+  border: 1px solid gray;
+  font-weight: bold;
+  display: inline;
+}
+
+.copyright{
+  text-align: left;
+}
+
+.contact{
+  text-align: right;
+  display: inline;
+}
+
+footer a{
+  color:black;
+  text-decoration: underline;
+  cursor: pointer;
+}

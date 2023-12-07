@@ -1,0 +1,127 @@
+*{
+    font-family: Raleway;
+    color: black;
+    background-color: gray;
+  }
+  
+  header{
+    padding-left: 10px;
+    height: 125px;
+    display: inline;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+  }
+  
+  #logo{
+    margin: 0 auto 5px;
+    padding: 0 2px;
+    max-width: 10%;
+    height: auto;
+    text-align: left;
+    display: inline;
+  }
+  
+  nav{
+    margin: 10px auto;
+    text-align: right;
+    cursor: pointer;
+    font-family: raleway;
+  }
+  
+  nav a{
+    margin: 10px;
+    display: inline;
+  }
+
+ .images1 h3{
+    font-family: raleway;
+    font-weight: bold;
+    color: back;
+    margin: 10x;
+    text-align: right;
+    display: block;
+  }
+
+  .images1{
+    margin-top: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+  
+
+  img{
+    height: 325px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border: 2px solid darkgray;
+  }
+
+  .images2 h3{
+    font-family: raleway;
+    font-weight: bold;
+    color: back;
+    margin: 10x;
+    text-align: left;
+    display: flex;
+  }
+
+  .images2{
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: right;
+  }
+
+  .images3 h3{
+    font-family: raleway;
+    font-weight: bold;
+    color: back;
+    margin: 10x;
+    text-align: right;
+    display: flex;
+  }
+
+  .images3{
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: right;
+  }
+
+  footer{
+    background-color: darkgray;
+    border: 1px solid gray;
+    font-weight: bold;
+    display: block;
+  }
+
+  .copyright{
+    text-align: left;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline;
+  }
+
+  .contact{
+    text-align: right;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline;
+  }
+
+  footer a{
+    color:black;
+    text-decoration: underline;
+    cursor: pointer;
+  }

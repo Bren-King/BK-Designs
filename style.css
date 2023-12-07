@@ -1,0 +1,93 @@
+*{
+    font-family: Raleway;
+    color: black;
+    background-color: gray;
+  }
+  
+  header{
+    padding-left: 10px;
+    height: 500px;
+    border-bottom: 1px solid lightgray;
+    display: inline;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  
+  #logo{
+    margin: 0 auto 15px;
+    padding: 0 2px;
+    max-width: 35%;
+    height: auto;
+    text-align: center;
+    display: block;
+    border: 1px solid lightgray
+  }
+  
+  nav{
+    margin: 60px auto;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  nav a{
+    margin: 10px;
+  }
+
+  div .home-img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+  }
+
+  #yellow-room{
+    margin: 0 auto;
+    float: left;
+    display: inline;
+  }
+
+  #garden-kitchen{
+    margin: 0 auto;
+    float: right;
+    display: inline;
+  }
+
+  footer{
+    background-color: darkgray;
+    border: 1px solid gray;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .copyright{
+    text-align: left;
+  }
+
+  .contact{
+    text-align: right;
+    display: inline;
+  }
+
+  footer a{
+    color:black;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  @media (max-width: 400px) {
+    img {
+      overflow-clip-margin: content-box;
+      overflow: clip;
+  }
+
+  #yellow-room{
+    margin: 0 auto;
+    float: left;
+    display: inline;
+    orientation: portrait;
+  }
+  }
+  
