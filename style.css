@@ -59,7 +59,7 @@
     background-color: darkgray;
     border: 1px solid gray;
     font-weight: bold;
-    display: inline;
+    display: block;
   }
 
   .copyright{
