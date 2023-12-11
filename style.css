@@ -79,8 +79,8 @@ ow*{
 
   @media (max-width: 400px) {
     img {
-      overflow-clip-margin: content-box;
-      overflow: clip;
+      overflow-clip-margin: unset;
+      overflow: visible;
   }
 
   #yellow-room{
