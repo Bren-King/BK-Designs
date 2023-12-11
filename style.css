@@ -109,26 +109,25 @@
     #yellow-room{
     margin: 0 auto;
     float: left;
-    display: inline-flex;
+    display: inline;
     justify-content: center;
-    max-width: 100%
+    max-width: auto;
   }
 
   #garden-kitchen{
     margin: 0 auto;
     float: right;
-    display: inline-flex;
+    display: inline;
     justify-content: center;
     overflow: visible;
     overflow-clip-margin: unset;
-    max-width: 100%;
+    max-width: auto;
   }
     footer{
     background-color: darkgray;
     font-weight: bold;
     display: block;
     text-align: center;
-    position: fixed;
   }
 }
   
