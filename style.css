@@ -90,6 +90,15 @@
     display: inline;
     orientation: portrait;
   }
+    #garden-kitchen{
+    margin: 0 auto;
+    float: right;
+    display: inline-flex;
+    justify-content: center;
+    overflow: visible;
+    overflow-clip-margin: unset;
+    width: 100%;
+  }
   }
 
 @media only screen and (min-width: 400px){
@@ -107,6 +116,7 @@
     justify-content: center;
     overflow: visible;
     overflow-clip-margin: unset;
+    width: 100%;
   }
     footer{
     background-color: darkgray;
