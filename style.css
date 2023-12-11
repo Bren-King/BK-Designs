@@ -73,14 +73,11 @@
     background-color: gray;
     font-weight: bold;
     display: block;
-    footer {
-    background: silver;
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 150px;
-}
   }
 
   .copyright{
@@ -128,6 +125,13 @@
     font-weight: bold;
     display: block;
     text-align: center;
+    footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+}
   }
   }
 
