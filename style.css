@@ -53,12 +53,14 @@
     margin: 0 auto;
     float: left;
     display: inline-flex;
+    max-width: 100%;
   }
 
   #garden-kitchen{
     margin: 0 auto;
     float: right;
     display: inline-flex;
+    max-width: 100%;
   }
 
   footer{
