@@ -122,7 +122,6 @@
     font-weight: bold;
     display: block;
     text-align: center;
-    position: static;
   }
   }
 
@@ -153,7 +152,6 @@
     font-weight: bold;
     display: block;
     text-align: center;
-    position: static;
   }
 }
   
