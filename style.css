@@ -54,9 +54,8 @@
     float: left;
     max-width: 50%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: center;
+    flex-wrap: flex;
+    justify-content: center;
   }
 
   #garden-kitchen{
@@ -64,9 +63,8 @@
     float: right;
     max-width: 50%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: center;
+    flex-wrap: flex;
+    justify-content: center;
   }
 
   footer{
@@ -147,9 +145,7 @@
     justify-content: center;
     max-width: 100%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: center;
+    flex-wrap: flex;
   }
 
   #garden-kitchen{
@@ -157,9 +153,7 @@
     float: right;
     max-width: 60%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: center;
+    flex-wrap: flex;
   }
     footer{
     background-color: darkgray;
