@@ -25,6 +25,7 @@
     text-align: center;
     display: block;
     border: 1px solid lightgray;
+    background-color: gray;
   }
   
   nav{
@@ -32,6 +33,7 @@
     text-align: center;
     cursor: pointer;
     color: black;
+    background-color: black;
   }
   
   nav a{
@@ -79,11 +81,7 @@
   }
 
   @media (max-width: 400px) {
-    img {
-      overflow-clip-margin: unset;
-      overflow: visible;
-  }
-
+      
   #yellow-room{
     margin: 0 auto;
     float: left;
