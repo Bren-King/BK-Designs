@@ -82,17 +82,23 @@
 
   .copyright{
     text-align: left;
+    bottom: 0;
+    width: 100%
   }
 
   .contact{
     text-align: right;
     display: block;
+    bottom: 0;
+    width: 100%
   }
 
   footer a{
     color:black;
     text-decoration: underline;
     cursor: pointer;
+    bottom: 0;
+    width: 100%
   }
 
   @media (max-width: 400px) {
@@ -160,6 +166,11 @@
     font-weight: bold;
     display: block;
     text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
   }
 }
   
