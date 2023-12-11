@@ -48,11 +48,11 @@
   #family{
     height: auto;
     width: 700px;
-    float: left;
     margin: 0 auto;
     border: 2px solid darkgray;
     border-radius: 5px;
     display: inline;
+    padding-left: 100px;
   }
 
   p{
