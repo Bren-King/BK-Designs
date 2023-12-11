@@ -1,4 +1,4 @@
-ow*{
+*{
     font-family: Raleway;
     color: black;
     background-color: gray;
@@ -57,7 +57,6 @@ ow*{
 
   footer{
     background-color: darkgray;
-    border: 1px solid gray;
     font-weight: bold;
     display: block;
   }
@@ -68,7 +67,7 @@ ow*{
 
   .contact{
     text-align: right;
-    display: inline;
+    display: block;
   }
 
   footer a{
