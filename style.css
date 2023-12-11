@@ -99,15 +99,21 @@
     display: inline;
     orientation: portrait;
     max-width: 100%
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
   }
     #garden-kitchen{
     margin: 0 auto;
     float: right;
     display: inline-flex;
     justify-content: center;
-    overflow: visible;
-    overflow-clip-margin: unset;
     max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
   }
   }
 
@@ -117,17 +123,21 @@
     float: left;
     display: inline;
     justify-content: center;
-    max-width: auto;
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
   }
 
   #garden-kitchen{
     margin: 0 auto;
     float: right;
-    display: inline;
-    justify-content: center;
-    overflow: visible;
-    overflow-clip-margin: unset;
-    max-width: auto;
+    max-width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
   }
     footer{
     background-color: darkgray;
