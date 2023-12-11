@@ -1,4 +1,4 @@
-*{
+ow*{
     font-family: Raleway;
     color: black;
     background-color: gray;
@@ -105,6 +105,7 @@
     display: inline-flex;
     justify-content: center;
     overflow: visible;
+    overflow-clip-margin: unset;
   }
     footer{
     background-color: darkgray;
