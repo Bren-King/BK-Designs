@@ -53,15 +53,21 @@
   #yellow-room{
     margin: 0 auto;
     float: left;
-    display: inline-flex;
     max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
   }
 
   #garden-kitchen{
     margin: 0 auto;
     float: right;
-    display: inline-flex;
     max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
   }
 
   footer{
