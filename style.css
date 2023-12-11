@@ -52,7 +52,7 @@
   #yellow-room{
     margin: 0 auto;
     float: left;
-    max-width: 100%;
+    max-width: 50%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -62,7 +62,7 @@
   #garden-kitchen{
     margin: 0 auto;
     float: right;
-    max-width: 100%;
+    max-width: 50%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -97,7 +97,7 @@
     float: left;
     display: inline;
     orientation: portrait;
-    max-width: 100%
+    max-width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
