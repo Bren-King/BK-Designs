@@ -34,11 +34,13 @@
     cursor: pointer;
     color: black;
     background-color: black;
+    font-family: raleway;
   }
   
   nav a{
     margin: 10px;
     color: black;
+    font-family: raleway;
   }
 
   div .home-img{
