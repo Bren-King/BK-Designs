@@ -38,9 +38,7 @@
   }
 
   div .home-img{
-    height: 100px;
-    width: 100px;
-    object-fit: cover;
+   display: flex;
   }
 
   #yellow-room{
