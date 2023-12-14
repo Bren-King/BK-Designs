@@ -7,6 +7,7 @@
   header{
     padding-left: 10px;
     height: 500px;
+    border-bottom: 1px solid lightgray;
     display: inline;
     width: 100%;
     top: 0;
@@ -23,29 +24,18 @@
     height: auto;
     text-align: center;
     display: block;
-    border: 1px solid lightgray;
-    background-color: gray;
+    border: 1px solid lightgray
   }
   
   nav{
     margin: 60px auto;
     text-align: center;
     cursor: pointer;
-    color: black;
-    font-family: raleway;
-    background-color: gray;
   }
   
   nav a{
     margin: 10px;
-    color: black;
-    font-family: raleway;
-    background-color: gray;
   }
-
-  body{
-    min-height: 100vh;
-    display: flex;
 
   div .home-img{
     height: 100px;
@@ -56,19 +46,13 @@
   #yellow-room{
     margin: 0 auto;
     float: left;
-    display: flex;
-    flex-wrap: row wrap;
-    justify-content: center;
-    position: relative;
+    display: inline;
   }
 
   #garden-kitchen{
     margin: 0 auto;
     float: right;
-    display: flex;
-    flex-wrap: row wrap;
-    justify-content: center;
-    position: relative;
+    display: inline;
   }
 
   ul{
