@@ -71,5 +71,27 @@
     width: 100%
   }
 
+ footer{
+    background-color: darkgray;
+    border: 1px solid gray;
+    font-weight: bold;
+    display: inline;
+  }
+
+  .copyright{
+    text-align: left;
+  }
+
+  .contact{
+    text-align: right;
+    display: inline;
+  }
+
+  footer a{
+    color:black;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
 
   
